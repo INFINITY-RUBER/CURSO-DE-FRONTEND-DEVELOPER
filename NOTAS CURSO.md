@@ -84,6 +84,7 @@ https://picular.co/Video
 http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF
 https://coolors.co/001514-fbfffe-6b0504-a3320b-e6af2e
 ## Valores relativos y absolutos
+-https://coolors.co/5e1dfc-ab88ff-8f57fd-21c08b-e6af2e
 Los valores absolutos son, por ejemplo, centímetros, milímetros, pixeles y pulgadas. Se llaman de esta forma porque no tienen en cuenta a nadie más, no depende de la medida de otra unidad.
 Los valores relativas, llevan este nombre porque depende de otra unidad de medida o elemento. Por ejemplo, porcentajes, vmx, em, entre otros.
 Recuerda que podemos darle estilos a etiquetas HTML muy específicas indicando dónde se van a encontrar. Por ejemplo: si queremos darle estilos únicamente a la imagen que está dentro del header, podemos usar el selector css header img { ... }.
@@ -120,6 +121,11 @@ Al igual que Flebox, tenemos propiedades diferentes, tanto para el contenedor co
 -https://www.youtube.com/channel/UC7TizprGknbDalbHplROtag
 -https://cssgridgarden.com/#es
 -https://platzi.com/clases/css-grid-layout/
+
+## Estructura con HTML y BEM de un menú desplegable
+-https://iconos8.es/  bajar iconos
+
+## Estilizando nuestro menú desplegable con CSS
 ``
 ``
 ``
