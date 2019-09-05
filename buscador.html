@@ -69,8 +69,30 @@ body {
 }
 .header__menu--profile p {
     width: 0px;
+    color: white;    
+}
+.main {
+    height: 300px;    
+}
+.main__title {
+    color: white;    
+    font-size: 25px;
+}
+.input {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    border-radius: 30px;
     color: white;
-    
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+    width: 80%;
+    padding: 0px 20px;
+    height: 40px;
+    outline: none;
+}
+::placeholder {
+    color: white;    
+
 }
 </style>
 <body>
@@ -88,10 +110,13 @@ body {
                 <li><a href="/">Cerrar sesion</a></li>               
 
             </ul>
-
         </div>
-
     </header>
+        
+    <section class="main">
+        <h2 class="main__title">¿Que quieres ver hoy</h2>
+        <input class="input" type="text" placeholder="Buscar...">
+    </section>
     
 </body>
 </html>

@@ -126,6 +126,12 @@ Al igual que Flebox, tenemos propiedades diferentes, tanto para el contenedor co
 -https://iconos8.es/  bajar iconos
 
 ## Estilizando nuestro menú desplegable con CSS
+documentacion: 
+-https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+-https://fonts.google.com/
+
+## Creación de un buscador
+-
 ``
 ``
 ``
