@@ -130,8 +130,21 @@ documentacion:
 -https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 -https://fonts.google.com/
 
-## Creación de un buscador
--
+## Creación de un carousel de imágenes con CSS: Estructura principal
+documentacion: 
+-https://iconos8.es/
+-https://www.pexels.com/
+-https://platzi.com/clases/animaciones-web/
+## Creación de un carousel de imágenes con CSS: Detalle de cada item
+-https://iconos8.es/
+-https://www.pexels.com/
+
+## Visualización de un botón usando storybook para HTML
+- https://storybook.js.org/docs/guides/guide-html/
+`npx -p @storybook/cli sb init --type html`
+Por ultimo compilas el codigo que tienes escribiendo en terminal lo siguiente.
+`npm run storybook`
+
 ``
 ``
 ``
