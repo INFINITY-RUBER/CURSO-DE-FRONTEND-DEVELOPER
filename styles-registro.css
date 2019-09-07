@@ -28,45 +28,14 @@ body {
     display: flex;
     flex-direction: column;
 }
-.login__container--register {
-    font-size: 14px;        
-}
-.login__container--register a {
-    justify-content: center;
+
+.login a {
+    align-items: center;
     color: white;
     font-weight: bold;
     font-size: 16px;
-    text-decoration: none;
+    
 }
-.login__container--register a:hover {
-    text-decoration: underline;
-}
-.login__container--remember-me {
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-
-}
-.login__container--remember-me a {
-    color: white;
-    margin-top: 14px;
-    text-decoration: none;
-}
-.login__container--remember-me a:hover {    
-    text-decoration: underline;
-}
-.login__container--social-media > div {
-    display: flex;
-    align-items: center;
-    font-size: 14px;
-    margin-bottom: 10px;
-}
-.login__container--social-media > div > img {
-    width: 30px;    
-    margin-right: 10px;
-}
-
 .input {
     background-color: transparent;
     border-left: 0px;
