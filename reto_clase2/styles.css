@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: "Muli", sans-serif;
+  background: #8f57fd;
+}
+
+.header {
+  align-items: center;
+  background: #21C08B;
+  color: white;
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  top: 0px;
+  width: 100%;
+}
+
+.header__img {
+  margin-left: 30px;
+  width: 200px;
+}
+
+.cuerpo {
+  background: linear-gradient(#21C08B, #AB8AFF);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px 30px;
+  min-height: calc(100vh - 200px);
+}
+
+.cuerpo__404 {
+  color: white;
+  font-size: 150px;
+  margin: 10px;
+}
+
+.cuerpo__parrafo {
+  color: white;
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+
+@keyframes hinge {
+  0% {
+    transform: rotate(0);
+    transform-origin: top left;
+    animation-timing-function: ease-in-out;
+  }
+  50%, 60% {
+    transform: rotate(80deg);
+    transform-origin: top left;
+    animation-timing-function: ease-in-out;
+  }
+  70% {
+    transform: rotate(60deg);
+    transform-origin: top left;
+    animation-timing-function: ease-in-out;
+  }
+  80% {
+    transform: rotate(60deg) translateY(0);
+    transform-origin: top left;
+    animation-timing-function: ease-in-out;
+  }
+  100% {
+    transform: translateY(700px);
+  }
+}
+.hinge {
+  /* margin: 20px; */
+  animation-name: hinge;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.footer {
+  background-color: #AB8AFF;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+}
+
+.footer a {
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  padding-left: 30px;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=styles.css.map */

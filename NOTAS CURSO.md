@@ -84,6 +84,7 @@ https://picular.co/Video
 http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF
 https://coolors.co/001514-fbfffe-6b0504-a3320b-e6af2e
 ## Valores relativos y absolutos
+-https://coolors.co/5e1dfc-ab88ff-8f57fd-21c08b-e6af2e
 Los valores absolutos son, por ejemplo, centímetros, milímetros, pixeles y pulgadas. Se llaman de esta forma porque no tienen en cuenta a nadie más, no depende de la medida de otra unidad.
 Los valores relativas, llevan este nombre porque depende de otra unidad de medida o elemento. Por ejemplo, porcentajes, vmx, em, entre otros.
 Recuerda que podemos darle estilos a etiquetas HTML muy específicas indicando dónde se van a encontrar. Por ejemplo: si queremos darle estilos únicamente a la imagen que está dentro del header, podemos usar el selector css header img { ... }.
@@ -105,7 +106,6 @@ Un componente, tanto en diseño como desarrollo web, es un elemento muy pequeño
 ## Flexbox
 Uno de los trabajos más difíciles en CSS es alinear elementos. Para hacerlo más fácil podemos contar con Flexbox.
 Es importante tener presente que tendremos un contenedor y los elementos que queremos organizar dependiendo de nuestras necesidades.
--https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 -https://flexboxfroggy.com/#es
 -https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
 -https://platzi.com/clases/html5-css3/
@@ -120,6 +120,35 @@ Al igual que Flebox, tenemos propiedades diferentes, tanto para el contenedor co
 -https://www.youtube.com/channel/UC7TizprGknbDalbHplROtag
 -https://cssgridgarden.com/#es
 -https://platzi.com/clases/css-grid-layout/
+
+## Estructura con HTML y BEM de un menú desplegable
+-https://iconos8.es/  bajar iconos
+
+## Estilizando nuestro menú desplegable con CSS
+documentacion: 
+-https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+-https://fonts.google.com/
+
+## Creación de un carousel de imágenes con CSS: Estructura principal
+documentacion: 
+-https://iconos8.es/
+-https://www.pexels.com/
+-https://platzi.com/clases/animaciones-web/
+## Creación de un carousel de imágenes con CSS: Detalle de cada item
+-https://iconos8.es/
+-https://www.pexels.com/
+
+## Visualización de un botón usando storybook para HTML
+- https://storybook.js.org/docs/guides/guide-html/
+`npx -p @storybook/cli sb init --type html`
+Por ultimo compilas el codigo que tienes escribiendo en terminal lo siguiente.
+`npm run storybook`
+
+## Maquetación de la pantalla de login: Estructura HTML
+## Maquetación de la pantalla de login: Estilización con CSS
+- https://developer.mozilla.org/es/docs/Web/CSS/calc
+- 
+
 ``
 ``
 ``
