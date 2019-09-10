@@ -270,6 +270,7 @@ letter-spacing: 1px;
 margin: 10px 0px;
 }
 .footer {
+margin: 0px;
 background-color: #AB88FF;
 display: flex;
 align-items: center;
