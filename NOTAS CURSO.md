@@ -147,7 +147,30 @@ Por ultimo compilas el codigo que tienes escribiendo en terminal lo siguiente.
 ## Maquetación de la pantalla de login: Estructura HTML
 ## Maquetación de la pantalla de login: Estilización con CSS
 - https://developer.mozilla.org/es/docs/Web/CSS/calc
-- 
+## Instalación de SASS y configuración incial
+https://github.com/teffcode/sass-workshop
+Instalación de SASS con NPM: `npm install -g sass`
+1. Instalación de SASS en tu computador.
+Si usas npm debes poner en tu consola: npm install -g sass
+Si usas Chocolatey Package Manager (Windows) debes poner en tu consola: choco install sass
+Si eres MAC OS X debes poner en tu consola: brew install sass/sass/sass
+Documentación oficial: https://sass-lang.com/install
+
+2. Correr el proyecto con SASS
+Para poder visualizar tus proyectos de sass en el navegador, debes escribir en tu consola: 
+`sass [tu-ruta/styles.scss] [tu-ruta/para guradar/styles.css]`
+## Hablemos de variables, herencia, anidamiento, operadores y más
+https://sass-lang.com/documentation/variables
+
+## La accesibilidad y nuestra responsabilidad como desarrolladores
+Debemos pensar en esas personas con una discapacidad visual que no tienen la posibilidad de ver lo mismo que la mayoría de nosotros. Estas personas no siempre usan el mouse, sino lectores de pantalla.
+Un Lector de Pantalla se encarga de leer toda la aplicación elemento por elemento. Que los lectores de pantalla funcionen es responsabilidad de las y los desarrolladores: debemos tener muy buena semántica, usar las etiquetas y atributos adecuados entre otras.
+https://www.ssa.gov/accessibility/andi/help/install.html
+https://support.apple.com/es-lamr/HT202362
+https://developer.mozilla.org/es/docs/Web/HTML/Atributos_Globales/tabindex
+
+
+
 
 ``
 ``
